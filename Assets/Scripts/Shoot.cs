@@ -16,6 +16,7 @@ public class Shoot : MonoBehaviour
 	{
 		if (Input.GetButtonDown ("Fire1")) 
 		{
+	
 			Instantiate (bullet, transform.position, transform.rotation);
 		}
 	}
